@@ -7,7 +7,7 @@ This repository contains a hybrid Intrusion Detection System (IDS) optimized for
 
 The system operates across a decoupled edge-to-cloud architecture to ensure high throughput packet capture without resource starvation at the inference layer.
 
-![Architecture: ML Inference](docs/images/phase3.png)
+![Hybrid IDS Phases Workflow](docs/images/final.png)
 
 1. **Traffic Capture (Suricata)**: Operates at the network edge, monitoring incoming packets against predefined CVE and threat signatures. Outputs are logged continuously to `eve.json`.
 2. **Log Processing**: A resilient edge parser tails `eve.json` to handle missing fields and log rotation. It extracts specific network features (e.g., packet counts, byte volumes, ports) and converts them into normalized numerical vectors.
