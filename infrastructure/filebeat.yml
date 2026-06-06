@@ -1,0 +1,15 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/suricata/eve.json
+  json.keys_under_root: true
+  json.overwrite_keys: true
+
+output.elasticsearch:
+  hosts: ["elasticsearch:9200"]
+  index: "suricata-%{+yyyy.MM.dd}"
+
+setup.template.name: "suricata"
+setup.template.pattern: "suricata-*"
+setup.ilm.enabled: false

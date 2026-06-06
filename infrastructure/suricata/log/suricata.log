@@ -1,0 +1,432 @@
+[1 - Suricata-Main] 2026-05-06 02:22:33 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:22:33 Info: runmodes: eth0: creating 8 threads
+[21 - W#01-eth0] 2026-05-06 02:22:33 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-06 02:22:33 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-06 02:38:17 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-05-06 02:38:17 Info: suricata: time elapsed 943.985s
+[1 - Suricata-Main] 2026-05-06 02:38:39 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:39 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:39 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:39 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:39 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:39 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:40 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:40 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:40 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:40 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:40 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:40 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:40 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:41 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:41 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:41 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:41 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:41 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:41 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:42 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:42 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:42 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:42 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:42 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:43 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:43 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:43 Info: runmodes: Wi-Fi: creating 8 threads
+[20 - W#01-Wi-Fi] 2026-05-06 02:38:43 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[20 - W#01-Wi-Fi] 2026-05-06 02:38:43 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:43 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:45 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:45 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:46 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:46 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:46 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:46 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:46 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:49 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:49 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:49 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:50 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:50 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:50 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:38:56 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:38:56 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:38:56 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:38:56 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:38:57 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:38:57 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:57 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:38:57 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:38:57 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:39:10 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:39:10 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:39:10 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:39:10 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:39:10 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:39:10 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:39:36 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:39:36 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:39:36 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:39:36 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:39:36 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:39:36 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:40:28 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:40:28 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:40:28 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:40:28 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:40:28 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:40:28 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:41:29 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:41:29 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:41:29 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:41:29 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:41:29 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:41:29 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:42:30 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:42:30 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:42:30 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:42:30 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:42:30 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:42:30 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:43:30 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:43:30 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:43:30 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:43:30 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:43:31 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:43:31 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:43:31 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:43:31 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:43:31 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:44:31 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:44:31 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:44:31 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:44:32 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:44:32 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:44:32 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:45:32 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:45:32 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:45:32 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:45:32 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:45:32 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:45:32 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:46:33 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:46:33 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:46:33 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:46:33 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:46:33 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:46:33 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:47:33 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:47:33 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:47:33 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:47:33 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:47:34 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:47:34 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:47:34 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:47:34 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:47:34 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:48:34 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:48:34 Error: af-packet: Wi-Fi: failed to find interface type: No such device
+[1 - Suricata-Main] 2026-05-06 02:48:34 Info: runmodes: Wi-Fi: creating 8 threads
+[21 - W#01-Wi-Fi] 2026-05-06 02:48:34 Error: af-packet: Wi-Fi: failed to find interface: No such device
+[21 - W#01-Wi-Fi] 2026-05-06 02:48:34 Error: af-packet: Wi-Fi: failed to init socket for interface
+[1 - Suricata-Main] 2026-05-06 02:48:34 Error: threads: thread "W#01-Wi-Fi" failed to start: flags 0422
+[1 - Suricata-Main] 2026-05-06 02:49:36 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:49:36 Info: runmodes: eth0: creating 8 threads
+[21 - W#01-eth0] 2026-05-06 02:49:36 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-06 02:49:36 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-06 02:53:46 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-05-06 02:53:47 Info: suricata: time elapsed 251.006s
+[1 - Suricata-Main] 2026-05-06 02:53:57 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: detect: 1 rule files processed. 1 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: detect: 1 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 02:53:57 Info: runmodes: eth0: creating 8 threads
+[21 - W#01-eth0] 2026-05-06 02:53:57 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-06 02:53:58 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-06 04:55:24 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-05-06 04:55:25 Info: suricata: time elapsed 7287.575s
+[1 - Suricata-Main] 2026-05-06 04:55:32 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: detect: 2 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 04:55:32 Info: runmodes: eth0: creating 8 threads
+[21 - W#01-eth0] 2026-05-06 04:55:33 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-06 04:55:33 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-06 05:21:02 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-05-06 05:21:02 Info: suricata: time elapsed 1530.102s
+[1 - Suricata-Main] 2026-05-06 05:21:09 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: cpu: CPUs/cores online: 8
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: detect: 1 rule files processed. 2 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: detect: 2 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-05-06 05:21:09 Info: runmodes: eth0: creating 8 threads
+[21 - W#01-eth0] 2026-05-06 05:21:09 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-05-06 05:21:10 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-05-06 07:34:57 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-05-06 07:34:58 Info: suricata: time elapsed 8029.042s

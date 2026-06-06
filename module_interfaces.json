@@ -1,0 +1,22 @@
+{
+  "suricata_to_extractor": {
+    "input": "network_traffic",
+    "output": "eve.json",
+    "format": "JSON"
+  },
+  "extractor_to_ml_api": {
+    "input": "parsed_eve_data",
+    "output": "feature_vector",
+    "format": "JSON/List"
+  },
+  "ml_api_to_integration": {
+    "input": "feature_vector",
+    "output": "prediction_score",
+    "format": "JSON { 'anomaly': boolean, 'score': float }"
+  },
+  "system_to_elk": {
+    "input": "alerts_and_logs",
+    "output": "indexed_documents",
+    "format": "Elasticsearch API"
+  }
+}
